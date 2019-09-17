@@ -10,7 +10,7 @@ if(!require("ROCR")) install.packages("ROCR"); library("ROCR")
 if(!require("corrplot")) install.packages("corrplot"); library("corrplot")
 
 #Set work directory, change it!
-setwd("~/OneDrive - IESEG/Descriptive_Predictive_Analytics/GroupProject")
+setwd("~/OneDrive/IESEG_MBDA_2018/Semester_1/Descriptive_Predictive_Analytics/GroupProject")
 
 # Reading raw data:
 dTrain <-read.table("campaign20130411.csv",sep=";",stringsAsFactors=FALSE, header = TRUE)
